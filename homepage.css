@@ -1,0 +1,728 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.backgroundHeroImage {
+    background-image: url(images/me.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: -10px;
+}
+
+.mylogo {
+    max-width: max-content;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.description {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    text-align: left;
+}
+
+.navigationicon {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+}
+
+.navigationbar {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: rgb(207, 207, 207);
+    width: 0%;
+    z-index: 1;
+    transition: 1s;
+    height: 100%;
+    overflow: hidden;
+}
+
+.icon {
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    position: fixed;
+}
+
+.webnavigations {
+    font-size: 25px;
+    list-style-type: none;
+    position: fixed;
+    width: 43%;
+}
+
+.dataset {
+    margin: 25px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 20px;
+}
+
+.dataset:hover {
+    background-color: black;
+    color: white;
+    transition: ease-in 0.5s;
+}
+
+.smplatforms {
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    margin-left: -30px;
+}
+
+
+
+.name {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+.myProfession{
+    margin-top: -30px;
+}
+
+.portfoliosummary {
+    margin-top: 20%;
+    margin-left: 3.5%;
+}
+
+.jobTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    width: 50%;
+}
+
+.aboutmyself {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    letter-spacing: 0.1vw;
+    padding-top: 10px;
+    overflow: hidden;
+}
+#open:hover{
+    cursor: pointer;
+}
+#close:hover{
+    cursor: pointer;
+}
+.scroll-downs {
+    margin: auto;
+    max-width: max-content;
+    max-height: max-content;
+    padding: 15px;
+}
+
+.mousey {
+    width: 2px;
+    padding: 5px 10px;
+    height: 30px;
+    border: 4px solid #fff;
+    border-radius: 20px;
+    opacity: 0.75;
+    box-sizing: content-box;
+}
+
+.scroller {
+    width: 2px;
+    height: 5px;
+    border-radius: 20%;
+    border-width: 2px;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15, .41, .69, .94);
+    animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(15px);
+        opacity: 0;
+    }
+}
+.servicesprovided{
+    margin-top: -15px;
+    background-color: aqua;
+    position: relative;
+    z-index: 1;
+    background-image: linear-gradient(to bottom right,#ffffff,#ffffff,#8A8787,#000000);
+}
+.about {
+    margin: 15px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2em;
+}
+
+.aboutMe {
+    font-size: 35px;
+    color: grey;
+}
+
+.service {
+    font-weight: bold;
+    margin-top: -30px;
+    font-size: 20px;
+}
+
+.galleryContainer {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.img{
+    width: 550px;
+    height: 550px;
+    border-radius: 20px;
+    position: relative;
+}
+.uxDesign {
+    margin: 15px;
+    position: relative;
+    box-shadow: 5px 5px 20px white,
+                -5px -5px 20px black;
+    width: max-content;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.description1 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.404);
+    top: 0;
+    left: 0%;
+    width: 550px;
+    transition-delay: ease-out 1s;
+}
+
+.uxDesign:hover .description1 {
+    border-radius: 20px;
+    height: 100%;
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.719);
+    cursor: pointer;
+}
+.heading {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.serviceDescription {
+    margin-top: -30px;
+    margin-left: 20px;
+}
+
+.webresponsive {
+    margin: 15px;
+    position: relative;
+    box-shadow: 5px 5px 20px white,
+                -5px -5px 20px black;
+    width: max-content;
+    border-radius: 20px;
+    transition: 5s;
+}
+
+.webresponsive:hover .description1 {
+    border-radius: 20px;
+    height: 100%;
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.719);
+    cursor: pointer;
+}
+.backendDeveloper {
+    margin: 15px;
+    position: relative;
+    box-shadow: 5px 5px 20px white,
+                -5px -5px 20px black;
+    width: max-content;
+    border-radius: 20px;
+}
+
+.backendDeveloper:hover .description1 {
+    border-radius: 20px;
+    height: 100%;
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.719);
+    cursor: pointer;
+}
+
+.mobileapp {
+    margin: 15px;
+    position: relative;
+    box-shadow: 5px 5px 20px white,
+                -5px -5px 20px black;
+    width: max-content;
+    border-radius: 20px;
+}
+
+.mobileapp:hover .description1 {
+    border-radius: 20px;
+    height: 100%;
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.719);
+    cursor: pointer;
+}
+.projects{
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project1{
+    margin: 15px;
+    padding: 5px;
+    position: relative;
+}
+.project1:hover .description1 {
+    height: 100%;
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.719);
+    cursor: pointer;
+}
+@media (max-width:800px) {
+    #sm{
+        margin:20px;
+        width: 60px;
+    }
+    .mylogo{
+        margin-top: -25px;
+        margin-left: -30px;
+    }
+    .navigationicon{
+        margin: 25px;
+        margin-right: -2px;
+        margin-top: 19px;
+    }
+    #close{
+        font-size: 30px;
+    }
+    .description{
+        margin-top: -20px;
+        margin-left: -30px;
+    }
+    .dataset {
+        margin: 15px;
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 15px;
+    }
+    .webnavigations{
+        margin-left: -5.5%;
+    }
+    .smplatforms{
+        margin-left: -50px;
+    }
+    .portfoliosummary{
+        margin-top: 10%;
+        margin-left: 3.5%;
+        width: fit-content;
+    }
+    .jobTitle {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+        font-size: 40px;
+        width: 80%;
+    }
+    .backgroundHeroImage {
+        background-image: url(images/me.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-top: -10px;
+    }
+    .aboutmyself {
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 20px;
+        width: 80%;
+        letter-spacing: 0.1vw;
+        padding-top: 10px;
+        overflow: hidden;
+    }
+    .servicesprovided{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .img{
+        width: 350px;
+        height: 350px;
+    }
+    .description1 {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        color: white;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(0, 0, 0, 0.404);
+        top: 0;
+        left: 0%;
+        width: 350px;
+        transition-delay: ease-out 1s;
+    }
+    
+    .webresponsive {
+        margin: 10px;
+        position: relative;
+        box-shadow: 5px 5px 20px white,
+                    -5px -5px 20px black;
+        width: max-content;
+        border-radius: 20px;
+        transition: 5s;
+    }
+    .backendDeveloper {
+        margin: 10px;
+        position: relative;
+        box-shadow: 5px 5px 20px white,
+                    -5px -5px 20px black;
+        width: max-content;
+        border-radius: 20px;
+    }
+      
+    .mobileapp {
+        margin: 10px;
+        position: relative;
+        box-shadow: 5px 5px 20px white,
+                    -5px -5px 20px black;
+        width: max-content;
+        border-radius: 20px;
+    }
+        
+    .heading {
+        font-weight: bold;
+        font-size: 20px;
+        margin-left:20px;
+    }
+    
+    .serviceDescription {
+        margin-top: -15px;
+        margin-left: 20px;
+        font-size: 14px;
+    }
+    
+}
+@media (max-width:600px) {
+    #sm{
+        margin:20px;
+        width: 60px;
+    }
+    .mylogo{
+        margin-top: -25px;
+        margin-left: -30px;
+    }
+    .navigationicon{
+        margin: 25px;
+        margin-right: -2px;
+        margin-top: 19px;
+    }
+    #close{
+        font-size: 30px;
+    }
+    .description{
+        margin-top: -20px;
+        margin-left: -30px;
+    }
+    .dataset {
+        margin: 15px;
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 15px;
+    }
+    .webnavigations{
+        margin-left: -5.5%;
+    }
+    .smplatforms{
+        margin-left: -50px;
+    }
+    .portfoliosummary{
+        margin-top: 10%;
+        margin-left: 3.5%;
+        width: fit-content;
+    }
+    .jobTitle {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+        font-size: 40px;
+        width: 80%;
+    }
+    .backgroundHeroImage {
+        background-image: url(images/me.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-top: -10px;
+    }
+    .aboutmyself {
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 20px;
+        width: 80%;
+        letter-spacing: 0.1vw;
+        padding-top: 10px;
+        overflow: hidden;
+    }
+    .servicesprovided{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .img{
+        width: 270px;
+        height: 270px;
+    }
+    .description1 {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        color: white;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(0, 0, 0, 0.404);
+        top: 0;
+        left: 0%;
+        width: 270px;
+        transition-delay: ease-out 1s;
+    }
+    
+    .webresponsive {
+        margin: 10px;
+        position: relative;
+        box-shadow: 5px 5px 20px white,
+                    -5px -5px 20px black;
+        width: max-content;
+        border-radius: 20px;
+        transition: 5s;
+    }
+    .backendDeveloper {
+        margin: 10px;
+        position: relative;
+        box-shadow: 5px 5px 20px white,
+                    -5px -5px 20px black;
+        width: max-content;
+        border-radius: 20px;
+    }
+      
+    .mobileapp {
+        margin: 10px;
+        position: relative;
+        box-shadow: 5px 5px 20px white,
+                    -5px -5px 20px black;
+        width: max-content;
+        border-radius: 20px;
+    }
+        
+    .heading {
+        font-weight: bold;
+        font-size: 15px;
+        margin-left:20px;
+    }
+    
+    .serviceDescription {
+        margin-top: -6px;
+        margin-left: 20px;
+        font-size: 12px;
+    }
+}
+@media (max-width:500px) {
+    #sm{
+        margin:20px;
+        width: 45px;
+    }
+    .mylogo{
+        margin-top: -25px;
+        margin-left: -30px;
+    }
+    .name {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .myProfession{
+        margin-top: -25px;
+        font-size: 12px;
+    }
+    .navigationicon{
+        margin: 25px;
+        margin-right: -2px;
+        margin-top: 19px;
+    }
+    .navigationbar {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        background-color: rgb(207, 207, 207);
+        width: 0%;
+        z-index: 1;
+        transition: 1s;
+        height: 100%;
+        overflow: hidden;
+    }
+    #close{
+        font-size: 20px;
+    }
+    .description{
+        margin-top: -15px;
+        margin-left: -30px;
+    }
+    .dataset {
+        margin: 15px;
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 15px;
+    }
+    .webnavigations{
+        margin-left:-10.5%;
+    }
+    .smplatforms{
+        margin-left: -20px;
+        flex-wrap: wrap;
+    }
+    .smlink {
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        margin:10px;
+    }
+    .portfoliosummary{
+        margin-top: 10%;
+        margin-left: 3.5%;
+        width: fit-content;
+    }
+    .jobTitle {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+        font-size: 30px;
+        width: 80%;
+    }
+    .backgroundHeroImage {
+        background-image: url(images/me.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-top: -10px;
+    }
+    .aboutmyself {
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 16px;
+        width: 80%;
+        letter-spacing: 0.1vw;
+        padding-top: 10px;
+        overflow: hidden;
+    }
+    .img{
+        width: 400px;
+        height: 400px;
+    }
+    .description1 {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        color: white;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(0, 0, 0, 0.404);
+        top: 0;
+        left: 0%;
+        width: 400px;
+        transition-delay: ease-out 1s;
+    }
+    
+    .webresponsive {
+        margin: 15px;
+        position: relative;
+        box-shadow: 5px 5px 20px white,
+                    -5px -5px 20px black;
+        width: max-content;
+        border-radius: 20px;
+        transition: 5s;
+    }
+    .backendDeveloper {
+        margin: 15px;
+        position: relative;
+        box-shadow: 5px 5px 20px white,
+                    -5px -5px 20px black;
+        width: max-content;
+        border-radius: 20px;
+    }
+      
+    .mobileapp {
+        margin: 15px;
+        position: relative;
+        box-shadow: 5px 5px 20px white,
+                    -5px -5px 20px black;
+        width: max-content;
+        border-radius: 20px;
+    }
+    
+    .heading {
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    
+    .serviceDescription {
+        margin-top: -20px;
+        margin-left: 20px;
+    }
+}
