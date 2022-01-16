@@ -1040,4 +1040,16 @@ body {
         width:350px;
         height:350px;
     }
+    .description2{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        color: white;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(0, 0, 0, 0.404);
+        top: 0;
+        left: 0%;
+        width: 350px;
+        transition-delay: ease-out 1s;
+    }
 }
