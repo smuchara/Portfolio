@@ -818,3 +818,182 @@ body {
         margin-left: 20px;
     }
 }
+
+@media (max-width:400px) {
+    #sm{
+        margin:20px;
+        width: 45px;
+    }
+    .mylogo{
+        margin-top: -25px;
+        margin-left: -30px;
+    }
+    .name {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .myProfession{
+        margin-top: -25px;
+        font-size: 12px;
+    }
+    .navigationicon{
+        margin: 25px;
+        margin-right: -2px;
+        margin-top: 19px;
+    }
+    .navigationbar {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        background-color: rgb(207, 207, 207);
+        width: 0%;
+        z-index: 1;
+        transition: 1s;
+        height: 100%;
+        overflow: hidden;
+    }
+    #close{
+        font-size: 20px;
+    }
+    .description{
+        margin-top: -15px;
+        margin-left: -30px;
+    }
+    .dataset {
+        margin: 15px;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 12px;
+        width: 150px;
+    }
+    .webnavigations{
+        margin-left:-10.5%;
+    }
+    .smplatforms{
+        margin-left: -25px;
+        flex-wrap: wrap;
+    }
+    .smlink {
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        margin:10px;
+    }
+    .portfoliosummary{
+        margin-top: 10%;
+        margin-left: 3.5%;
+        width: fit-content;
+    }
+    .jobTitle {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+        font-size: 30px;
+        width: 80%;
+    }
+    .backgroundHeroImage {
+        background-image: url(images/me.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-top: -10px;
+    }
+    .aboutmyself {
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 16px;
+        width: 80%;
+        letter-spacing: 0.1vw;
+        padding-top: 10px;
+        overflow: hidden;
+    }
+    .img{
+        width: 300px;
+        height: 300px;
+    }
+    .description1 {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        color: white;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(0, 0, 0, 0.404);
+        top: 0;
+        left: 0%;
+        width: 400px;
+        transition-delay: ease-out 1s;
+    }
+    
+    .webresponsive {
+        margin: 15px;
+        position: relative;
+        box-shadow: 5px 5px 20px white,
+                    -5px -5px 20px black;
+        width: max-content;
+        border-radius: 20px;
+        transition: 5s;
+    }
+    .backendDeveloper {
+        margin: 15px;
+        position: relative;
+        box-shadow: 5px 5px 20px white,
+                    -5px -5px 20px black;
+        width: max-content;
+        border-radius: 20px;
+    }
+      
+    .mobileapp {
+        margin: 15px;
+        position: relative;
+        box-shadow: 5px 5px 20px white,
+                    -5px -5px 20px black;
+        width: max-content;
+        border-radius: 20px;
+    }
+    .uxDesign:hover .description1 {
+        border-radius: 20px;
+        height: 100%;
+        width: 400px;
+        background-color: rgba(0, 0, 0, 0.719);
+        cursor: pointer;
+    }
+    .webresponsive:hover .description1 {
+        border-radius: 20px;
+        height: 100%;
+        width: 400px;
+        background-color: rgba(0, 0, 0, 0.719);
+        cursor: pointer;
+    }
+    .backendDeveloper:hover .description1 {
+        border-radius: 20px;
+        height: 100%;
+        width: 400px;
+        background-color: rgba(0, 0, 0, 0.719);
+        cursor: pointer;
+    }
+    .mobileapp:hover .description1 {
+        border-radius: 20px;
+        height: 100%;
+        width: 400px;
+        background-color: rgba(0, 0, 0, 0.719);
+        cursor: pointer;
+    }    
+    .heading {
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    
+    .serviceDescription {
+        margin-top: -20px;
+        margin-left: 20px;
+    }  
+}
