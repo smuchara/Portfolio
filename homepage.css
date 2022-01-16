@@ -411,6 +411,15 @@ body {
         width: 350px;
         transition-delay: ease-out 1s;
     }
+    .uxDesign {
+        margin: 10px;
+        position: relative;
+        box-shadow: 5px 5px 20px white,
+                    -5px -5px 20px black;
+        width: max-content;
+        border-radius: 20px;
+        overflow: hidden;
+    }
     .webresponsive {
         margin: 10px;
         position: relative;
@@ -418,7 +427,6 @@ body {
                     -5px -5px 20px black;
         width: max-content;
         border-radius: 20px;
-        transition: 5s;
     }
     .backendDeveloper {
         margin: 10px;
@@ -437,7 +445,35 @@ body {
         width: max-content;
         border-radius: 20px;
     }
-        
+      
+    .uxDesign:hover .description1 {
+        border-radius: 20px;
+        height: 100%;
+        width: 350px;
+        background-color: rgba(0, 0, 0, 0.719);
+        cursor: pointer;
+    }
+    .webresponsive:hover .description1 {
+        border-radius: 20px;
+        height: 100%;
+        width: 350px;
+        background-color: rgba(0, 0, 0, 0.719);
+        cursor: pointer;
+    }
+    .backendDeveloper:hover .description1 {
+        border-radius: 20px;
+        height: 100%;
+        width: 350px;
+        background-color: rgba(0, 0, 0, 0.719);
+        cursor: pointer;
+    }
+    .mobileapp:hover .description1 {
+        border-radius: 20px;
+        height: 100%;
+        width: 350px;
+        background-color: rgba(0, 0, 0, 0.719);
+        cursor: pointer;
+    }    
     .heading {
         font-weight: bold;
         font-size: 20px;
@@ -565,7 +601,34 @@ body {
         width: max-content;
         border-radius: 20px;
     }
-        
+    .uxDesign:hover .description1 {
+        border-radius: 20px;
+        height: 100%;
+        width: 270px;
+        background-color: rgba(0, 0, 0, 0.719);
+        cursor: pointer;
+    }
+    .webresponsive:hover .description1 {
+        border-radius: 20px;
+        height: 100%;
+        width: 270px;
+        background-color: rgba(0, 0, 0, 0.719);
+        cursor: pointer;
+    }
+    .backendDeveloper:hover .description1 {
+        border-radius: 20px;
+        height: 100%;
+        width: 270px;
+        background-color: rgba(0, 0, 0, 0.719);
+        cursor: pointer;
+    }
+    .mobileapp:hover .description1 {
+        border-radius: 20px;
+        height: 100%;
+        width: 270px;
+        background-color: rgba(0, 0, 0, 0.719);
+        cursor: pointer;
+    }     
     .heading {
         font-weight: bold;
         font-size: 15px;
@@ -716,7 +779,34 @@ body {
         width: max-content;
         border-radius: 20px;
     }
-    
+    .uxDesign:hover .description1 {
+        border-radius: 20px;
+        height: 100%;
+        width: 400px;
+        background-color: rgba(0, 0, 0, 0.719);
+        cursor: pointer;
+    }
+    .webresponsive:hover .description1 {
+        border-radius: 20px;
+        height: 100%;
+        width: 400px;
+        background-color: rgba(0, 0, 0, 0.719);
+        cursor: pointer;
+    }
+    .backendDeveloper:hover .description1 {
+        border-radius: 20px;
+        height: 100%;
+        width: 400px;
+        background-color: rgba(0, 0, 0, 0.719);
+        cursor: pointer;
+    }
+    .mobileapp:hover .description1 {
+        border-radius: 20px;
+        height: 100%;
+        width: 400px;
+        background-color: rgba(0, 0, 0, 0.719);
+        cursor: pointer;
+    }    
     .heading {
         font-weight: bold;
         font-size: 20px;
