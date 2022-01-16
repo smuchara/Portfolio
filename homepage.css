@@ -1049,7 +1049,7 @@ body {
         background-color: rgba(0, 0, 0, 0.404);
         top: 0;
         left: 0%;
-        width: 350px;
+        width:360px;
         transition-delay: ease-out 1s;
     }
 }
