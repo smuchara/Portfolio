@@ -239,7 +239,7 @@ body {
 .uxDesign:hover .description1 {
     border-radius: 20px;
     height: 100%;
-    width: max-content;
+    width: 550px;
     background-color: rgba(0, 0, 0, 0.719);
     cursor: pointer;
 }
@@ -262,6 +262,7 @@ body {
     width: max-content;
     border-radius: 20px;
     transition: 5s;
+    overflow: hidden;
 }
 
 .webresponsive:hover .description1 {
@@ -278,6 +279,7 @@ body {
                 -5px -5px 20px black;
     width: max-content;
     border-radius: 20px;
+    overflow: hidden;
 }
 
 .backendDeveloper:hover .description1 {
@@ -295,6 +297,7 @@ body {
                 -5px -5px 20px black;
     width: max-content;
     border-radius: 20px;
+    overflow: hidden;
 }
 
 .mobileapp:hover .description1 {
