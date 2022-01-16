@@ -239,7 +239,7 @@ body {
 .uxDesign:hover .description1 {
     border-radius: 20px;
     height: 100%;
-    width: 550px;
+    width: max-content;
     background-color: rgba(0, 0, 0, 0.719);
     cursor: pointer;
 }
@@ -408,7 +408,6 @@ body {
         width: 350px;
         transition-delay: ease-out 1s;
     }
-    
     .webresponsive {
         margin: 10px;
         position: relative;
