@@ -961,28 +961,28 @@ body {
     .uxDesign:hover .description1 {
         border-radius: 20px;
         height: 100%;
-        width: 400px;
+        width: 300px;
         background-color: rgba(0, 0, 0, 0.719);
         cursor: pointer;
     }
     .webresponsive:hover .description1 {
         border-radius: 20px;
         height: 100%;
-        width: 400px;
+        width: 300px;
         background-color: rgba(0, 0, 0, 0.719);
         cursor: pointer;
     }
     .backendDeveloper:hover .description1 {
         border-radius: 20px;
         height: 100%;
-        width: 400px;
+        width: 300px;
         background-color: rgba(0, 0, 0, 0.719);
         cursor: pointer;
     }
     .mobileapp:hover .description1 {
         border-radius: 20px;
         height: 100%;
-        width: 400px;
+        width: 300px;
         background-color: rgba(0, 0, 0, 0.719);
         cursor: pointer;
     }    
