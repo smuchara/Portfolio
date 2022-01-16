@@ -312,6 +312,8 @@ body {
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
 }
 .project1{
     margin: 15px;
@@ -323,6 +325,10 @@ body {
     width: 550px;
     background-color: rgba(0, 0, 0, 0.719);
     cursor: pointer;
+}
+#project1{
+    width:550px;
+    height:550px;
 }
 .mycontacts{
     position: absolute;
@@ -502,7 +508,10 @@ body {
         margin-left: 20px;
         font-size: 14px;
     }
-    
+    #project1{
+        width:500px;
+        height:500px;
+    } 
 }
 @media (max-width:600px) {
     #sm{
@@ -656,6 +665,10 @@ body {
         margin-top: -6px;
         margin-left: 20px;
         font-size: 12px;
+    }
+    #project1{
+        width:450px;
+        height:450px;
     }
 }
 @media (max-width:500px) {
@@ -833,6 +846,10 @@ body {
     .serviceDescription {
         margin-top: -20px;
         margin-left: 20px;
+    }
+    #project1{
+        width:400px;
+        height:400px;
     }
 }
 
@@ -1012,5 +1029,15 @@ body {
     .serviceDescription {
         margin-top: -20px;
         margin-left: 20px;
+    }
+    .project1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0%;
     }  
+    #project1{
+        width:350px;
+        height:350px;
+    }
 }
