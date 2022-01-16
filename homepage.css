@@ -332,7 +332,7 @@ body {
 }
 .mycontacts{
     position: absolute;
-    margin: 10px;
+    margin-right: -20px;
     bottom: 0%;
     right: 0%;
     z-index: 1;
