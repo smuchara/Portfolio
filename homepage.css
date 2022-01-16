@@ -324,6 +324,23 @@ body {
     background-color: rgba(0, 0, 0, 0.719);
     cursor: pointer;
 }
+.mycontacts{
+    position: absolute;
+    margin: 20px;
+    bottom: 0%;
+    right: 0%;
+    z-index: 100;
+    background-color: white;
+    border-radius: 100%;
+    position: fixed;
+}
+.letschat{
+    position: relative;
+    padding:20px;
+    background-color: white;
+    border-radius: 100%;
+
+}
 @media (max-width:800px) {
     #sm{
         margin:20px;
