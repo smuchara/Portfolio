@@ -332,20 +332,29 @@ body {
 }
 .mycontacts{
     position: absolute;
-    margin: 20px;
+    margin: 10px;
     bottom: 0%;
     right: 0%;
-    z-index: 100;
-    background-color: white;
-     border-radius: 100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 100%;
     position: fixed;
+    width: 100px;
 }
 .letschat{
     position: relative;
     padding:20px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     border-radius: 100%;
-
+    display: flex;
+    flex-wrap: wrap;
+}
+.contactsoption{
+    background-color: #fff;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 100%;
+    color: black;
 }
 @media (max-width:800px) {
     #sm{
