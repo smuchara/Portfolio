@@ -331,7 +331,7 @@ body {
     right: 0%;
     z-index: 100;
     background-color: white;
-    border-radius: 100%;
+     border-radius: 100%;
     position: fixed;
 }
 .letschat{
@@ -502,22 +502,7 @@ body {
         margin-left: 20px;
         font-size: 14px;
     }
-    .mycontacts{
-        position: absolute;
-        margin: 20px;
-        bottom: 0%;
-        right: 0%;
-        z-index: 100;
-        background-color: white;
-        border-radius: 100%;
-        position: fixed;
-    }
-    .letschat{
-        position: relative;
-        padding:20px;
-        background-color: white;
-        border-radius: 100%;
-    }
+    
 }
 @media (max-width:600px) {
     #sm{
@@ -671,23 +656,6 @@ body {
         margin-top: -6px;
         margin-left: 20px;
         font-size: 12px;
-    }
-    .mycontacts{
-        position: absolute;
-        margin: 20px;
-        bottom: 0%;
-        right: 0%;
-        z-index: 100;
-        background-color: white;
-        border-radius: 100%;
-        position: fixed;
-    }
-    .letschat{
-        position: relative;
-        padding:20px;
-        background-color: white;
-        border-radius: 100%;
-    
     }
 }
 @media (max-width:500px) {
@@ -865,23 +833,6 @@ body {
     .serviceDescription {
         margin-top: -20px;
         margin-left: 20px;
-    }
-    .mycontacts{
-        position: absolute;
-        margin: 20px;
-        bottom: 0%;
-        right: 0%;
-        z-index: 100;
-        background-color: white;
-        border-radius: 100%;
-        position: fixed;
-    }
-    .letschat{
-        position: relative;
-        padding:20px;
-        background-color: white;
-        border-radius: 100%;
-    
     }
 }
 
@@ -1061,22 +1012,5 @@ body {
     .serviceDescription {
         margin-top: -20px;
         margin-left: 20px;
-    }
-    .mycontacts{
-        position: absolute;
-        margin: 20px;
-        bottom: 0%;
-        right: 0%;
-        z-index: 100;
-        background-color: white;
-        border-radius: 100%;
-        position: fixed;
-    }
-    .letschat{
-        position: relative;
-        padding:20px;
-        background-color: white;
-        border-radius: 100%;
-    
     }  
 }
