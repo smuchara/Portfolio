@@ -6,5 +6,5 @@ function openNav() {
     document.getElementById("navbar").style.width = "0";
   }
   function opencontacts(){
-    document.getElementById("more").style.width = "200px"
+    document.getElementById("more").style.height = "450px"
   }
