@@ -359,6 +359,14 @@ body {
     color: black;
     font-size: 18px;
 }
+#btno{
+    padding: 16.5px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 100%;
+    color: black;
+    font-size: 18px;
+}
 @media (max-width:800px) {
     #sm{
         margin:20px;
