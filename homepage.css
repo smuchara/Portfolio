@@ -341,7 +341,8 @@ body {
     position: fixed;
     width: 100px;
     height: 90px;
-    transition: ease-in-out 0.8s;
+    transition: ease-in-out 1s;
+    transition-duration: 2s;
 }
 .letschat{
     position: relative;
