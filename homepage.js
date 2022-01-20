@@ -7,9 +7,12 @@ function openNav() {
   }
 
   function opencontacts(){
+    var btn1 = document.getElementById("btn1");
     var btn2 =  document.getElementById("btn2");
     var btn3 = document.getElementById("btn3");
     var btn4 = document.getElementById("btn4");
+    var btn5 = document.getElementById("btn5");
+    btn1.classList = "class='fas fa-times-circle'";
     
     //design for btn2//
     btn2.style.marginBottom = "60px"
@@ -31,4 +34,12 @@ function openNav() {
     btn4.style.transitionDelay = "1s";
     btn4.style.color = "black";
     btn4.style.backgroundColor = "white"
+
+      //design for btn5//
+      btn5.style.transform = "translateY(-60px)";
+      btn5.style.transition = "ease-in";
+      btn5.style.transitionDuration = "0.7s";
+      btn5.style.transitionDelay = "1.5s";
+      btn5.style.color = "black";
+      btn5.style.backgroundColor = "white"
   }
