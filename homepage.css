@@ -347,8 +347,11 @@ body {
 #btn1{
     background-color: #ffffff;
     color: #000000;
+    position: absolute;
+    margin: 1px;
 }
 #btn2{
+    margin-bottom: 0px;
     transition: ease-in 0.5s;
     background-color: #00000000;
     color: #00000000;

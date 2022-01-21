@@ -14,7 +14,10 @@ function opencontacts() {
   var btn5 = document.getElementById("btn5");
 
   //design for btn2//
-  btn2.style.marginBottom = "60px"
+  btn2.style.transform = "translateY(-60px)";
+  btn2.style.transition = "ease-in";
+  btn2.style.transitionDuration = "0.7s";
+  btn2.style.transitionDelay = "0.5s";
   btn2.style.color = "black";
   btn2.style.backgroundColor = "white"
 
@@ -22,7 +25,7 @@ function opencontacts() {
   btn3.style.transform = "translateY(-60px)";
   btn3.style.transition = "ease-in";
   btn3.style.transitionDuration = "0.7s";
-  btn3.style.transitionDelay = "0.5s";
+  btn3.style.transitionDelay = "1s";
   btn3.style.color = "black";
   btn3.style.backgroundColor = "white"
 
@@ -30,7 +33,7 @@ function opencontacts() {
   btn4.style.transform = "translateY(-60px)";
   btn4.style.transition = "ease-in";
   btn4.style.transitionDuration = "0.7s";
-  btn4.style.transitionDelay = "1s";
+  btn4.style.transitionDelay = "1.5s";
   btn4.style.color = "black";
   btn4.style.backgroundColor = "white"
 
@@ -38,12 +41,11 @@ function opencontacts() {
   btn5.style.transform = "translateY(-60px)";
   btn5.style.transition = "ease-in";
   btn5.style.transitionDuration = "0.7s";
-  btn5.style.transitionDelay = "1.5s";
+  btn5.style.transitionDelay = "2s";
   btn5.style.color = "black";
-  btn5.style.backgroundColor = "white"
+  btn5.style.backgroundColor = "white";
 
-  btn1.classList = "class='fas fa-times-circle'";
-  btn1.closeContacts();
+  btn1.style.display = "none";
 }
 function closeContacts() {
   var btn1 = document.getElementById("btn1");
@@ -53,7 +55,7 @@ function closeContacts() {
   var btn4 = document.getElementById("btn4");
   var btn5 = document.getElementById("btn5");
   //design for btn2//
-  btn2.style.transform = "translateY(60px)";
+  btn2.style.transform = "translateY(0px)";
   btn2.style.transition = "ease-in";
   btn2.style.transitionDuration = "0.7s";
   btn2.style.transitionDelay = "0.3s";
@@ -82,4 +84,9 @@ function closeContacts() {
   btn5.style.transitionDuration = "0.5s";
   btn5.style.transitionDelay = "0.8s";
   btn5.style.color = "black";
+
+
+  btn1.style.display = "block";
+  btn1.style.zIndex ="100"
+  btn1.style.marginBottom = "1px"
 }
