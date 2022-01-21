@@ -351,23 +351,23 @@ body {
     margin: 1px;
 }
 #btn2{
-    margin-bottom: 0px;
+    margin-bottom: 60px;
     transition: ease-in 0.5s;
     background-color: #00000000;
     color: #00000000;
 }
 #btn3{
-    margin-bottom: 60px;
-    background-color: #00000000;
-    color: #00000000;
-}
-#btn4{
     margin-bottom: 120px;
     background-color: #00000000;
     color: #00000000;
 }
-#btn5{
+#btn4{
     margin-bottom: 180px;
+    background-color: #00000000;
+    color: #00000000;
+}
+#btn5{
+    margin-bottom: 240px;
     background-color: #00000000;
     color: #00000000;
 }
