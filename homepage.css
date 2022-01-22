@@ -48,12 +48,32 @@ body {
     height: 100%;
     overflow: hidden;
 }
-
+.displayservices{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.svg{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.brd{
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.imagenvg{
+    margin: 20px;
+}
 .icon {
     font-size: 40px;
     color: white;
     padding: 20px;
-    position: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .name {
     color: white;
