@@ -55,41 +55,6 @@ body {
     padding: 20px;
     position: fixed;
 }
-
-.webnavigations {
-    font-size: 25px;
-    list-style-type: none;
-    position: fixed;
-    width: 43%;
-}
-
-.dataset {
-    margin: 25px;
-    padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-    color: black;
-    border-radius: 20px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-size: 20px;
-}
-
-.dataset:hover {
-    background-color: black;
-    color: white;
-    transition: ease-in 0.5s;
-}
-
-.smplatforms {
-    position: relative;
-    display: flex;
-    list-style-type: none;
-    margin-left: -30px;
-}
-
-
-
 .name {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -340,8 +305,8 @@ body {
     position: fixed;
     transition: ease-in-out 1s;
     transition-duration: 2s;
-    margin: 50px;
-    margin-bottom: 15px;
+    margin: 60px;
+    margin-bottom: 20px;
     margin-left: 20px;
 }
 #btn1{

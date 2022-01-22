@@ -1,9 +1,14 @@
 function openNav() {
-  document.getElementById("navbar").style.width = "50%";
+  var navbar = document.getElementById("navbar");
+  navbar.style.width = "60%";
+  navbar.style.transitionDuration = "2s";
+  navbar.style.backgroundColor = "grey"
 }
 
 function closeNav() {
-  document.getElementById("navbar").style.width = "0";
+  var navbar = document.getElementById("navbar");
+  navbar.style.width = "0";
+  navbar.style.backgroundColor = "#D3D3D3"
 }
 
 function opencontacts() {
