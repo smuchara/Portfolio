@@ -47,6 +47,7 @@ body {
     transition: 1s;
     height: 30%;
     overflow: hidden;
+    scroll-behavior: smooth;
 }
 .displayservices{
     margin-top: 100px;
