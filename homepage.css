@@ -1,6 +1,7 @@
 *{
     scroll-behavior: smooth;
 }
+
 body {
     padding: 0%;
     margin: 0%;
@@ -52,7 +53,6 @@ body {
 .displayservices{
     margin-top: 100px;
     margin-left: 30px;
-    height: 80vh;
     width: 60%;
     display: flex;
     align-items: flex-start;
@@ -71,8 +71,11 @@ body {
     border-radius: 20px;
 }
 .imagenvg{
-    margin: 15px;
+    margin: 20px;
     text-decoration: none;
+}
+.navimgbtn{
+    width: 100px;
 }
 .icon {
     font-size: 40px;
@@ -400,22 +403,24 @@ body {
         margin-top: -20px;
         margin-left: -30px;
     }
-    .dataset {
-        margin: 15px;
-        padding: 5px;
+    .svg{
+        text-align: center;
         font-family: Arial, Helvetica, sans-serif;
-        background-color: white;
-        color: black;
-        border-radius: 10px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        font-size: 15px;
+        color: white;
+        font-size: 12px;
     }
-    .webnavigations{
-        margin-left: -5.5%;
+    .brd{
+        border: 2px solid white;
+        padding: 15px;
+        border-radius: 20px;
+        width: 70px;
     }
-    .smplatforms{
-        margin-left: -50px;
+    .imagenvg{
+        margin: 15px;
+        text-decoration: none;
+    }
+    .navimgbtn{
+        width: 60px;
     }
     .portfoliosummary{
         margin-top: 10%;
@@ -566,22 +571,35 @@ body {
         margin-top: -20px;
         margin-left: -30px;
     }
-    .dataset {
-        margin: 15px;
-        padding: 5px;
+    .displayservices{
+        margin-left: 15px;
+        width: 60%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        position: fixed;
+    }
+    .svg{
+        text-align: center;
         font-family: Arial, Helvetica, sans-serif;
-        background-color: white;
-        color: black;
-        border-radius: 10px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        font-size: 15px;
+        color: white;
+        font-size: 10px;
     }
-    .webnavigations{
-        margin-left: -5.5%;
+    .brd{
+        border: 2px solid white;
+        padding: 15px;
+        border-radius: 20px;
+        width: 55px;
     }
-    .smplatforms{
-        margin-left: -50px;
+    .imagenvg{
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        text-decoration: none;
+    }
+    .navimgbtn{
+        width: 50px;
     }
     .portfoliosummary{
         margin-top: 10%;
@@ -746,33 +764,41 @@ body {
         margin-top: -15px;
         margin-left: -30px;
     }
-    .dataset {
-        margin: 15px;
-        padding: 5px;
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: white;
-        color: black;
-        border-radius: 10px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        font-size: 15px;
-    }
-    .webnavigations{
-        margin-left:-10.5%;
-    }
-    .smplatforms{
-        margin-left: -20px;
-        flex-wrap: wrap;
-    }
-    .smlink {
-        font-size: 20px;
-        color: rgb(0, 0, 0);
-        margin:10px;
-    }
     .portfoliosummary{
         margin-top: 10%;
         margin-left: 3.5%;
         width: fit-content;
+    }
+    .displayservices{
+        margin-left: 28px;
+        width: 60%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        position: fixed;
+    }
+    .svg{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 5px;
+        font-weight: bold;
+    }
+    .brd{
+        border: 2px solid white;
+        padding: 10px;
+        border-radius: 15px;
+        width: 60px;
+    }
+    .imagenvg{
+        display: flex;
+        align-items: center;
+        margin: 5px;
+        text-decoration: none;
+    }
+    .navimgbtn{
+        width: 50px;
     }
     .jobTitle {
         font-family: Arial, Helvetica, sans-serif;
@@ -928,29 +954,36 @@ body {
         margin-top: -15px;
         margin-left: -30px;
     }
-    .dataset {
-        margin: 15px;
-        padding: 10px;
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: white;
-        color: black;
-        border-radius: 10px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        font-size: 12px;
-        width: 150px;
-    }
-    .webnavigations{
-        margin-left:-10.5%;
-    }
-    .smplatforms{
-        margin-left: -25px;
+    .displayservices{
+        margin-left: 28px;
+        width: 60%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
         flex-wrap: wrap;
+        position: fixed;
     }
-    .smlink {
-        font-size: 20px;
-        color: rgb(0, 0, 0);
-        margin:10px;
+    .svg{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 5px;
+        font-weight: bold;
+    }
+    .brd{
+        border: 2px solid white;
+        padding: 10px;
+        border-radius: 15px;
+        width: 50px;
+    }
+    .imagenvg{
+        display: flex;
+        align-items: center;
+        margin: 5px;
+        text-decoration: none;
+    }
+    .navimgbtn{
+        width: 40px;
     }
     .portfoliosummary{
         margin-top: 10%;
