@@ -382,6 +382,174 @@ body {
     font-size: 18px;
     height: 18px;
 }
+@media (max-width:1000px) {
+    #sm{
+        margin:20px;
+        width: 60px;
+    }
+    .mylogo{
+        margin-top: -25px;
+        margin-left: -30px;
+    }
+    .navigationicon{
+        margin: 25px;
+        margin-right: -2px;
+        margin-top: 19px;
+    }
+    #close{
+        font-size: 30px;
+    }
+    .description{
+        margin-top: -20px;
+        margin-left: -30px;
+    }
+    .svg{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 12px;
+    }
+    .brd{
+        border: 2px solid white;
+        padding: 15px;
+        border-radius: 20px;
+        width: 70px;
+    }
+    .imagenvg{
+        margin: 15px;
+        text-decoration: none;
+    }
+    .navimgbtn{
+        width: 60px;
+    }
+    .portfoliosummary{
+        margin-top: 10%;
+        margin-left: 3.5%;
+        width: fit-content;
+    }
+    .jobTitle {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+        font-size: 40px;
+        width: 80%;
+    }
+    .backgroundHeroImage {
+        background-image: url(images/me.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-top: -10px;
+    }
+    .aboutmyself {
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 20px;
+        width: 80%;
+        letter-spacing: 0.1vw;
+        padding-top: 10px;
+        overflow: hidden;
+    }
+    .servicesprovided{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .img{
+        width: 350px;
+        height: 350px;
+    }
+    .description1 {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        color: white;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(0, 0, 0, 0.404);
+        top: 0;
+        left: 0%;
+        width: 400px;
+        transition-delay: ease-out 1s;
+    }
+    .uxDesign {
+        margin: 15px;
+        position: relative;
+        box-shadow: 5px 5px 20px white,
+                    -5px -5px 20px black;
+        width: max-content;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .webresponsive {
+        margin: 15px;
+        position: relative;
+        box-shadow: 5px 5px 20px white,
+                    -5px -5px 20px black;
+        width: max-content;
+        border-radius: 20px;
+    }
+    .backendDeveloper {
+        margin: 15px;
+        position: relative;
+        box-shadow: 5px 5px 20px white,
+                    -5px -5px 20px black;
+        width: max-content;
+        border-radius: 20px;
+    }
+      
+    .mobileapp {
+        margin: 15px;
+        position: relative;
+        box-shadow: 5px 5px 20px white,
+                    -5px -5px 20px black;
+        width: max-content;
+        border-radius: 20px;
+    }
+      
+    .uxDesign:hover .description1 {
+        border-radius: 20px;
+        height: 100%;
+        width: 400px;
+        background-color: rgba(0, 0, 0, 0.719);
+        cursor: pointer;
+    }
+    .webresponsive:hover .description1 {
+        border-radius: 20px;
+        height: 100%;
+        width: 400px;
+        background-color: rgba(0, 0, 0, 0.719);
+        cursor: pointer;
+    }
+    .backendDeveloper:hover .description1 {
+        border-radius: 20px;
+        height: 100%;
+        width: 400px;
+        background-color: rgba(0, 0, 0, 0.719);
+        cursor: pointer;
+    }
+    .mobileapp:hover .description1 {
+        border-radius: 20px;
+        height: 100%;
+        width: 400px;
+        background-color: rgba(0, 0, 0, 0.719);
+        cursor: pointer;
+    }    
+    .heading {
+        font-weight: bold;
+        font-size: 20px;
+        margin-left:20px;
+    }
+    
+    .serviceDescription {
+        margin-top: -15px;
+        margin-left: 20px;
+        font-size: 14px;
+    }
+    #project1{
+        width:500px;
+        height:500px;
+    } 
+}
 @media (max-width:800px) {
     #sm{
         margin:20px;
@@ -956,7 +1124,7 @@ body {
     }
     .displayservices{
         margin-top: 70px;
-        margin-left: 20px;
+        margin-left: 30px;
         width: 70%;
         display: flex;
         align-items: flex-start;
