@@ -1,3 +1,7 @@
+window.addEventListener('scroll',()=>{
+  closeNav();
+});
+
 function openNav() {
   var navbar = document.getElementById("navbar");
   navbar.style.width = "60%";
@@ -9,6 +13,7 @@ function closeNav() {
   var navbar = document.getElementById("navbar");
   navbar.style.width = "0";
   navbar.style.backgroundColor = "#D3D3D3"
+  navbar.style.transitionDuration = "1s";
 }
 
 function opencontacts() {

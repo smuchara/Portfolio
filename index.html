@@ -10,7 +10,13 @@
     <link rel="stylesheet" href="fontawesome-free-5.15.2-web/fontawesome-free-5.15.2-web/js/all.js">
     <link rel="stylesheet" href="fontawesome-free-5.15.2-web/fontawesome-free-5.15.2-web/scss/_animated.scss">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="homepage.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/EaselPlugin.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/EasePack.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/CustomEase.min.js" defer></script>
+    <script src="homepage.js" defer></script>
     <title>Stephen Muchara</title>
 </head>
 
@@ -42,6 +48,7 @@
                 <i id="close" class="fas fa-times-circle" onclick="closeNav()"></i>
             </div>
             <div class="displayservices">
+                <nav style="float: left; display: flex; flex-wrap: wrap;">
                 <a class="imagenvg" href="#uxDesign">
                     <div class="svg">
                         <div class="brd">
@@ -74,7 +81,7 @@
                         <p>Mobile App Developer</p>
                     </div>
                 </a>
-                <a class="imagenvg" href="" style="margin-top: -120px;">
+                <a class="imagenvg" href="">
                     <div class="svg">
                         <div class="brd">
                             <img src="images/project.png" alt="ux" width="100px">
@@ -82,7 +89,7 @@
                         <p>My Projects</p>
                     </div>
                 </a>
-                <a class="imagenvg" href="" style="margin-top: -120px;">
+                <a class="imagenvg" href="">
                     <div class="svg">
                         <div class="brd">
                             <img src="images/testimonials.png" alt="ux" width="100px">
@@ -90,6 +97,7 @@
                         <p>Testimonials</p>
                     </div>
                 </a>
+                </nav>
             </div>
         </div>
     </div>
