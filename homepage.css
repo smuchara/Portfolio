@@ -1085,6 +1085,9 @@ body {
 }
 
 @media (max-width:400px) {
+    *{
+        color: grey;
+    }
     #sm{
         margin:20px;
         width: 45px;
