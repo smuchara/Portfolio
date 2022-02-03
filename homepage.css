@@ -208,10 +208,11 @@ body {
 }
 
 .img{
-    width: 500px;
+    width: 550px;
     height: 550px;
     border-radius: 20px;
     position: relative;
+
 }
 .uxDesign {
     margin: 55px;
