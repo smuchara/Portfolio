@@ -173,7 +173,7 @@ body {
     background-color: aqua;
     position: relative;
     z-index: 1;
-    background-image: linear-gradient(to bottom right,#ffffff,#ffffff,#8A8787,#000000);
+    background-image: linear-gradient(to bottom right,#ffffff,#ffffff,#000000,#000000);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
