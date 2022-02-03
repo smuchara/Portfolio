@@ -173,7 +173,7 @@ body {
     background-color: aqua;
     position: relative;
     z-index: 1;
-    background-image: linear-gradient(to bottom right,#ffffff,#ffffff,#000000,#000000);
+    background-image: linear-gradient(to bottom right,#ffffff,#ffffff,#272626,#0f0e0e);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -207,13 +207,13 @@ body {
 }
 
 .img{
-    width: 550px;
+    width: 500px;
     height: 550px;
     border-radius: 20px;
     position: relative;
 }
 .uxDesign {
-    margin: 15px;
+    margin: 55px;
     position: relative;
     box-shadow: 5px 5px 20px white,
                 -5px -5px 20px black;
@@ -254,7 +254,7 @@ body {
 }
 
 .webresponsive {
-    margin: 15px;
+    margin: 25px;
     position: relative;
     box-shadow: 5px 5px 20px white,
                 -5px -5px 20px black;
@@ -272,7 +272,7 @@ body {
     cursor: pointer;
 }
 .backendDeveloper {
-    margin: 15px;
+    margin: 25px;
     position: relative;
     box-shadow: 5px 5px 20px white,
                 -5px -5px 20px black;
@@ -290,7 +290,7 @@ body {
 }
 
 .mobileapp {
-    margin: 15px;
+    margin: 25px;
     position: relative;
     box-shadow: 5px 5px 20px white,
                 -5px -5px 20px black;
@@ -316,7 +316,7 @@ body {
     z-index: 100;
 }
 .project1{
-    margin: 15px;
+    margin: 25px;
     padding: 5px;
     position: relative;
 }
