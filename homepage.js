@@ -5,7 +5,7 @@ window.addEventListener('scroll',()=>{
 function openNav() {
   var navbar = document.getElementById("navbar");
   navbar.style.width = "60%";
-  navbar.style.transitionDuration = "2s";
+  navbar.style.transitionDuration = "1.5s";
   navbar.style.backgroundColor = "grey";
 }
 
